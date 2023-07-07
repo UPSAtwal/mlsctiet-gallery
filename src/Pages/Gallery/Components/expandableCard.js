@@ -26,8 +26,8 @@ const ExpandableCard = (props) => {
       <motion.div layout style={wrpstl} initial={wrpstl} animate={wrpstl}>
         <motion.h2
           className={classes.wrapper}
-          // initial={classes.wrapper}
-          // animate={classes.wrapper}
+          initial={classes.wrapper}
+          animate={classes.wrapper}
           onClick={clickHandler}
         >
           {props.year}
