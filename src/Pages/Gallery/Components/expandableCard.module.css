@@ -34,3 +34,12 @@
       min-width: 200px;
    }
 }
+
+@media screen and (max-width: 576px) {
+
+   .wrapper{
+      width: 100px;
+      transform: translateX(0%);
+      margin-left: -100px;
+   }
+}
