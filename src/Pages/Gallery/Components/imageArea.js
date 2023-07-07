@@ -7,7 +7,7 @@ const ImageArea = (props) => {
 
   return (
     <div className={classes.imgwrap}>
-      <div className={classes.c1}>
+      <div className={classes.c1}> {/*column 1 */}
         <RectBig
           source={props.images[0]}
           index={1}
@@ -33,7 +33,7 @@ const ImageArea = (props) => {
       </div>
 
 
-      <div className={classes.c2}>
+      <div className={classes.c2}> {/*column 2 */}
         <RectSmall
           source={props.images[4]}
           index={5}
@@ -56,7 +56,7 @@ const ImageArea = (props) => {
       </div>
 
 
-      <div className={classes.c3}>
+      <div className={classes.c3}> {/*column 3 */}
         <Sq source={props.images[9]} index={10} fn={setIndexg} ig={indexg} />
         <RectBig
           source={props.images[10]}
